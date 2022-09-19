@@ -19,6 +19,14 @@
     padding: 0 16px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    img {
+        max-width: 100%;
+        height: 56px;
+        object-fit: contain;
+        margin-top: 4px;
+        margin-bottom: -4px;
+    }
 }
 
 mat-toolbar,
@@ -50,5 +58,5 @@ mat-toolbar-row {
 }
 
 .router-container {
-    padding: 16px 0 0 56px;
+    padding: 16px 56px 0 56px;
 }
